@@ -1,0 +1,11 @@
+video {
+    width: 100%;
+    margin: 0 auto 2rem;
+    max-width: 36rem;
+}
+
+.video {
+    grid-area: video;
+    display: block;
+    text-align: center;
+}
