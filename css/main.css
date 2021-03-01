@@ -1,16 +1,16 @@
 .nav-link a {
   text-decoration: none;
   text-transform: uppercase;
-  color: #777;
+  color: slateblue;
+}
+
+.current a {
+  border-bottom: 2px solid slateblue;
 }
 
 .nav-link a:hover,
 .nav-link a:focus {
     color: #000;
-}
-
-.current a {
-    text-decoration: underline;
 }
 
 video {
