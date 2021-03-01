@@ -1,3 +1,18 @@
+.nav-link a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #777;
+}
+
+.nav-link a:hover,
+.nav-link a:focus {
+    color: #000;
+}
+
+.current a {
+    text-decoration: underline;
+}
+
 video {
     width: 100%;
     margin: 0 auto 2rem;
