@@ -11,6 +11,7 @@
 .nav-link a:hover,
 .nav-link a:focus {
     color: #000;
+    border-bottom-color: slateblue;
 }
 
 video {
