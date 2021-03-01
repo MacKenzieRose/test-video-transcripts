@@ -25,10 +25,11 @@ header {
 .middleside {
     grid-row: 2;
     grid-column: 2/4;
+    text-align: center;
 }
 
 .rightside {
-    grid-row: 2;
+    grid-row: 1;
     grid-column: 4/5;
     text-align: right;
 }
