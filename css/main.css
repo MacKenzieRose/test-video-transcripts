@@ -9,3 +9,26 @@ video {
     display: block;
     text-align: center;
 }
+
+/* Start media queries for content arrangement/visibility */
+header {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    align-items: start;
+}
+
+.leftside {
+    grid-row: 1;
+    grid-column: 1/2;
+}
+
+.middleside {
+    grid-row: 1;
+    grid-column: 2/4;
+}
+
+.rightside {
+    grid-row: 1;
+    grid-column: 4/5;
+    text-align: right;
+}
